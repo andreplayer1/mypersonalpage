@@ -47,7 +47,7 @@ nav {
 
 nav > a {
     font-family: var(--fonte-destaque);
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     color: #69562b;
@@ -56,7 +56,7 @@ nav > a {
 }
 
 nav > a:hover {
-    font-size: 2.5em;
+    font-size: 2em;
     color: whitesmoke;
     text-decoration: underline;
     background-color: #ffae00c7;
@@ -72,7 +72,7 @@ main {
     background-color: var(--cor3transparent);
     min-width: 350px;
     max-width: 900px;
-    height: 380px;
+    height: 420px;
     margin-bottom: 20px;
     font-family: var(--fonte-padrao);
     text-align: justify;
@@ -96,7 +96,7 @@ footer {
 }
 footer > a {
     font-family: var(--fonte-destaque);
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     color: #e7a711;
