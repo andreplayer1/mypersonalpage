@@ -75,6 +75,7 @@ main {
     height: 420px;
     margin-bottom: 20px;
     font-family: var(--fonte-padrao);
+    font-weight: bolder;
     text-align: justify;
 }
 
