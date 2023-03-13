@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #32D9F0;
+    --cor2: #0ad3ee;
+    --cor3: #2A95A3;
+    --cor4: #F0B027;
+    --cor3transparent: #2a95a357;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif ;
+    --fonte-destaque: 'Source Code Pro', monospace;;
+    --fonte-titulos: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(image/fundo-abstrato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    min-width: 350px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to right, black, rgb(207, 232, 252), transparent);
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav {    
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 350px;
+    max-width: 900px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+nav > a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #69562b;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav > a:hover {
+    font-size: 2.5em;
+    color: whitesmoke;
+    text-decoration: underline;
+    background-color: #ffae00c7;
+    transition-duration: 0.4s;
+}
+
+main {
+    margin: auto;
+    margin-top: ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px black;
+    background-color: var(--cor3transparent);
+    min-width: 350px;
+    max-width: 900px;
+    height: 380px;
+    margin-bottom: 20px;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+}
+
+main img.foto {
+    min-width: 200px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 350px;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+footer > a {
+    font-family: var(--fonte-destaque);
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e7a711;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+footer > a:hover {
+    font-size: 2.5em;
+    color: whitesmoke;
+    text-decoration: underline;
+    background-color: #ffae00c7;
+    transition-duration: 0.4s;
+}
